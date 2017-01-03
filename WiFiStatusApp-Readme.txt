@@ -30,16 +30,18 @@ In short: invoke Wireless Network Utility with "Configuration" menu from WiFiSta
 I tested and use it on 10.10.5 with the following WiFi USB adapters:
 
 1)
-TP-Link: 802.11n NIC
 TP-Link TL-WN725N
 VID-:0BDA PID:8179
 Realtek RTL8188EU chipset
+Name shown in Network properties: 802.11n NIC
 
 2)
-Edimax 802.11n WLAN Adapter
 EDIMAX EW-7811Un
 VID: 7392 PID: 7811
 Realtek RTL8188CU chipset
+Name shown in Network properties: 802.11n WLAN Adapter
+
+---------------
 
 Related references:
 
