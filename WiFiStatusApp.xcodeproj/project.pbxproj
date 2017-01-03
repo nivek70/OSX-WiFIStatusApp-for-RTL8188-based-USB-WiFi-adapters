@@ -10,6 +10,9 @@
 		1756B90D1C3BFBCF00C1B552 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1756B90C1C3BFBCF00C1B552 /* AppDelegate.swift */; };
 		1756B90F1C3BFBCF00C1B552 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1756B90E1C3BFBCF00C1B552 /* Assets.xcassets */; };
 		1756B9121C3BFBCF00C1B552 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1756B9101C3BFBCF00C1B552 /* MainMenu.xib */; };
+		1756B91B1C3C12AA00C1B552 /* WiFi_conf.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 1756B9191C3BFBE000C1B552 /* WiFi_conf.scpt */; settings = {ASSET_TAGS = (); }; };
+		1756B91C1C3C12BE00C1B552 /* WiFi_status.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 1756B91A1C3BFBE000C1B552 /* WiFi_status.scpt */; settings = {ASSET_TAGS = (); }; };
+		17ECF0A81C4929EB0065C417 /* check_assistive.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 17ECF0A71C4929EB0065C417 /* check_assistive.scpt */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +21,9 @@
 		1756B90E1C3BFBCF00C1B552 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1756B9111C3BFBCF00C1B552 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		1756B9131C3BFBCF00C1B552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1756B9191C3BFBE000C1B552 /* WiFi_conf.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = WiFi_conf.scpt; sourceTree = "<group>"; };
+		1756B91A1C3BFBE000C1B552 /* WiFi_status.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = WiFi_status.scpt; sourceTree = "<group>"; };
+		17ECF0A71C4929EB0065C417 /* check_assistive.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = check_assistive.scpt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +40,9 @@
 		1756B9001C3BFBCF00C1B552 = {
 			isa = PBXGroup;
 			children = (
+				1756B9191C3BFBE000C1B552 /* WiFi_conf.scpt */,
+				1756B91A1C3BFBE000C1B552 /* WiFi_status.scpt */,
+				17ECF0A71C4929EB0065C417 /* check_assistive.scpt */,
 				1756B90B1C3BFBCF00C1B552 /* WiFiStatusApp */,
 				1756B90A1C3BFBCF00C1B552 /* Products */,
 			);
@@ -116,6 +125,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1756B90F1C3BFBCF00C1B552 /* Assets.xcassets in Resources */,
+				1756B91B1C3C12AA00C1B552 /* WiFi_conf.scpt in Resources */,
+				17ECF0A81C4929EB0065C417 /* check_assistive.scpt in Resources */,
+				1756B91C1C3C12BE00C1B552 /* WiFi_status.scpt in Resources */,
 				1756B9121C3BFBCF00C1B552 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -181,7 +193,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -219,7 +231,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
@@ -268,6 +280,7 @@
 				1756B9181C3BFBCF00C1B552 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
