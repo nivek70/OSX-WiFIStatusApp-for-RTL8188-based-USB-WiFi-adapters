@@ -12,6 +12,7 @@
 		1756B9121C3BFBCF00C1B552 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1756B9101C3BFBCF00C1B552 /* MainMenu.xib */; };
 		1756B91B1C3C12AA00C1B552 /* WiFi_conf.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 1756B9191C3BFBE000C1B552 /* WiFi_conf.scpt */; settings = {ASSET_TAGS = (); }; };
 		1756B91C1C3C12BE00C1B552 /* WiFi_status.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 1756B91A1C3BFBE000C1B552 /* WiFi_status.scpt */; settings = {ASSET_TAGS = (); }; };
+		17BEBEDE1E1BB5D9006A6B99 /* WiFiStatusApp-Readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 17BEBEDD1E1BB5D9006A6B99 /* WiFiStatusApp-Readme.txt */; settings = {ASSET_TAGS = (); }; };
 		17ECF0A81C4929EB0065C417 /* check_assistive.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 17ECF0A71C4929EB0065C417 /* check_assistive.scpt */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		1756B9131C3BFBCF00C1B552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1756B9191C3BFBE000C1B552 /* WiFi_conf.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = WiFi_conf.scpt; sourceTree = "<group>"; };
 		1756B91A1C3BFBE000C1B552 /* WiFi_status.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = WiFi_status.scpt; sourceTree = "<group>"; };
+		17BEBEDD1E1BB5D9006A6B99 /* WiFiStatusApp-Readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "WiFiStatusApp-Readme.txt"; sourceTree = "<group>"; };
 		17ECF0A71C4929EB0065C417 /* check_assistive.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = check_assistive.scpt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -40,6 +42,7 @@
 		1756B9001C3BFBCF00C1B552 = {
 			isa = PBXGroup;
 			children = (
+				17BEBEDD1E1BB5D9006A6B99 /* WiFiStatusApp-Readme.txt */,
 				1756B9191C3BFBE000C1B552 /* WiFi_conf.scpt */,
 				1756B91A1C3BFBE000C1B552 /* WiFi_status.scpt */,
 				17ECF0A71C4929EB0065C417 /* check_assistive.scpt */,
@@ -127,6 +130,7 @@
 				1756B90F1C3BFBCF00C1B552 /* Assets.xcassets in Resources */,
 				1756B91B1C3C12AA00C1B552 /* WiFi_conf.scpt in Resources */,
 				17ECF0A81C4929EB0065C417 /* check_assistive.scpt in Resources */,
+				17BEBEDE1E1BB5D9006A6B99 /* WiFiStatusApp-Readme.txt in Resources */,
 				1756B91C1C3C12BE00C1B552 /* WiFi_status.scpt in Resources */,
 				1756B9121C3BFBCF00C1B552 /* MainMenu.xib in Resources */,
 			);
